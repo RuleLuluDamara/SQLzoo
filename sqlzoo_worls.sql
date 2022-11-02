@@ -36,7 +36,7 @@ SELECT name, capital
 FROM world
 WHERE (LEFT(name,1) = LEFT(capital,1) and
 name <> capital)
-
+# <> mean not same
 
 SELECT name FROM world
 WHERE name LIKE '%a%' AND 
